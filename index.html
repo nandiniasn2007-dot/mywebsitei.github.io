@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catering Service</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="description" content="Nandani's catering website with responsive design and delicious offerings.">
+<meta name="keywords" content="catering, food, responsive website, Nandani">
+<meta name="author" content="Nandani">
+
+
+
+</head>
+<body>
+  <div id="loader">
+  <div class="spinner"></div>
+</div>
+
+
+
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+  <div class="logo">MySite</div>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Our Clients</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Find the Best Catering Services</h1>
+    <form class="search-form">
+      
+      <select>
+  <option disabled selected>Choose a Service</option>
+
+  <optgroup label="Catering">
+    <option>Buffet Service</option>
+    <option>Plated Service</option>
+    <option>Cocktail Service</option>
+  </optgroup>
+
+  <optgroup label="Event Planning">
+    <option>Wedding Planning</option>
+    <option>Corporate Events</option>
+    <option>Birthday Parties</option>
+  </optgroup>
+
+  <optgroup label="Staffing">
+    <option>Chef</option>
+    <option>Wait Staff</option>
+    <option>Bartender</option>
+  </optgroup>
+</select>
+
+     
+      <select>
+  <option disabled selected>Choose Area</option>
+
+  <optgroup label="West Bengal">
+    <option value="kolkata">Kolkata</option>
+    <option value="bolpur">Bolpur</option>
+    <option value="durgapur">Durgapur</option>
+  </optgroup>
+
+  <optgroup label="Delhi NCR">
+    <option value="delhi">Delhi</option>
+    <option value="gurgaon">Gurgaon</option>
+    <option value="noida">Noida</option>
+  </optgroup>
+
+  <optgroup label="Maharashtra">
+    <option value="mumbai">Mumbai</option>
+    <option value="pune">Pune</option>
+    <option value="nagpur">Nagpur</option>
+  </optgroup>
+</select>
+
+      <input type="date" />
+      <input type="time" />
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+ <!-- Feature Highlights -->
+<section class="features">
+  <div class="feature">
+    <img src="fork.png" alt="Catering Icon">
+    <h3>Catering made simple</h3>
+    <p>Find the perfect catering service for your event.</p>
+  </div>
+  <div class="feature">
+    <img src="mouse.png" alt="Booking Icon">
+    <h3>Book Online</h3>
+    <p>Easily book your catering service online.</p>
+  </div>
+  <div class="feature">
+    <img src="cup.png" alt="Food Icon">
+    <h3>Amazing Food</h3>
+    <p>Enjoy delicious food prepared by top chefs.</p>
+  </div>
+</section>
+
+<!-- Our Services -->
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    <div class="service-card">
+      <img src="bg.jpg" alt="Private Chef">
+      <h4>Private Chef Dining</h4>
+      <p>Hire a private chef for an exclusive dining experience.</p>
+      <button>Read More</button>
+    </div>
+    <div class="service-card">
+      <img src="delivery.jpg" alt="Catering Delivery">
+      <h4>Catering Delivery</h4>
+      <p>Get food delivered for your event.</p>
+      <button>Read More</button>
+    </div>
+    <div class="service-card">
+      <img src="event.jpg" alt="Event Catering">
+      <h4>Event Catering</h4>
+      <p>Professional catering for weddings, parties, and corporate events.</p>
+      <button>Read More</button>
+    </div>
+    <div class="service-card">
+      <img src="cookingclass.jpg" alt="Cooking Class">
+      <h4>Cooking Class</h4>
+      <p>Learn to cook with expert chefs.</p>
+      <button>Read More</button>
+    </div>
+  </div>
+</section>
+
+<!-- Reasons to Choose Us -->
+<section class="reasons">
+  <h2>Reasons to Choose Our Website</h2>
+  <div class="reason-grid">
+    <div class="reason">
+      <img src="inclusive.png" alt="Inclusive Icon">
+      <h4>All inclusive service</h4>
+      <p>We provide everything you need for your event.</p>
+    </div>
+    <div class="reason">
+      <img src="baker_9618262.png" alt="Verified Icon">
+      <h4>Verified chefs</h4>
+      <p>All chefs are verified and experienced.</p>
+    </div>
+    <div class="reason">
+      <img src="chef-toque_18247449.png" alt="Top Chefs Icon">
+      <h4>Best chefs and catering services</h4>
+      <p>Top-rated chefs and catering providers.</p>
+    </div>
+    <div class="reason">
+      <img src="food-donation_8449978.png" alt="Cuisine Icon">
+      <h4>Choose from different cuisines</h4>
+      <p>Wide variety of cuisines to choose from.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta">
+  <div class="cta-content">
+    <h2>Are you a talented chef or caterer?</h2>
+    <button>JOIN US</button>
+  </div>
+</section>
+
+<!-- Testimonial Section with Slider -->
+<section class="testimonial">
+  <h2>What our people are saying</h2>
+  <div class="slider">
+    <div class="slide active">
+      <img src="testimonial 1.jpg" alt="John Smith" class="testimonial-img">
+      <p class="testimonial-text">
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text since the 1500s."
+      </p>
+      <p class="testimonial-name">John Smith<br><span>Founder & CEO, Company Name</span></p>
+    </div>
+    <div class="slide">
+      <img src="testimonial 2.jpg" alt="Jane Doe" class="testimonial-img">
+      <p class="testimonial-text">
+        "This platform helped me connect with amazing clients. The support and exposure are unmatched!"
+      </p>
+      <p class="testimonial-name">Jane Doe<br><span>Professional Caterer</span></p>
+    </div>
+    <div class="slide">
+      <img src="testimonial3.jpg" alt="Carlos Rivera" class="testimonial-img">
+      <p class="testimonial-text">
+        "Joining was the best decision for my culinary career. I’ve grown my business and reputation."
+      </p>
+      <p class="testimonial-name">Carlos Rivera<br><span>Chef & Entrepreneur</span></p>
+    </div>
+  </div>
+  <div class="slider-controls">
+    <button onclick="prevSlide()">❮</button>
+    <button onclick="nextSlide()">❯</button>
+  </div>
+</section>
+
+
+
+
+  <!-- Footer -->
+  <!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- About Us -->
+    <div class="footer-column">
+      <h3>About Us</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+      <a href="#" class="read-more">Read More...</a>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-column">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Payments Accepted -->
+
+
+    <!-- Contact Info -->
+    <div class="footer-column">
+      <h3>About Us</h3>
+      <p>📞 Phone: 1234567890</p>
+      <p>📧 Email: info@company.com</p>
+      <p>📍 Address: 602 lorem, 273621 lorem ipsum</p>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+    <p>© 2025 Company Name. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
